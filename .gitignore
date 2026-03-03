@@ -1,0 +1,47 @@
+# ============================================
+# Arquivos Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual env
+.env/
+.venv/
+venv/
+env/
+
+# Configurações locais
+.DS_Store
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+
+# Arquivos de teste
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mypy / Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+pylint-report.tx

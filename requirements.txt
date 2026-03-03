@@ -1,0 +1,8 @@
+pandas
+openpyxl
+python-dotenv
+sqlalchemy
+pymysql
+pyodbc
+#setuptools
+typer[all]

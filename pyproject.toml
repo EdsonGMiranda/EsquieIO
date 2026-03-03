@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esquieio"
+version = "0.1.0"
+description = "EsquiIO Projeto Python para extrair arquivos (CSV/TXT) e carregar em banco (principalmente SQL Server) usando SQLAlchemy + ODBC."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Edson Miranda", email = "egmiranda@firjan.com.br" }
+]
+
+dependencies = [
+    "pandas",
+    "openpyxl",
+    "python-dotenv",
+    "sqlalchemy",
+    "pymysql",
+    "pyodbc"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "flake8"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+esquieio = "cli:main"
