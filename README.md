@@ -25,7 +25,7 @@ EsquieIO/
 ├── file_utils.py # read_sql_file / listar_arquivos
 ├── config.py # load_env_variables(.env.<ambiente>)
 └── .env.<ambiente> # NÃO versionar (ex: .env.dev)
-
+```
 
 ---
 
