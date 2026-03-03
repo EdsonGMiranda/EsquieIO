@@ -237,7 +237,7 @@ Sobrescrevendo conexão via CLI (Windows Auth)
 
 esquieio sql run `
   --file "scripts/criar_tabelas.sql" `
-  --host "SRVSEDE01605D\INSTANCIA" `
-  --database "HUBDADOS_Corporativo" `
+  --host "<SERVER>\INSTANCIA" `
+  --database "database1" `
   --windows-auth
 
